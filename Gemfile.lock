@@ -1,0 +1,26 @@
+GIT
+  remote: git@github.com:theflow/enom-ruby.git
+  revision: a01cf58652d69f0cdc32777160d7bbcba5d03df1
+  specs:
+    enom (1.0.0)
+      httparty (~> 0)
+      insensitive_hash
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    insensitive_hash (0.3.3)
+    multi_xml (0.6.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  enom!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.15.1
